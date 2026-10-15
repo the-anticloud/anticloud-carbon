@@ -1,0 +1,4237 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "CARBON",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\DESIGN_TOOLS\\CARBON\\UPSTREAM_CLONE",
+  "git": {
+   "head": null,
+   "url": null,
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_unverified": true,
+   "note": "prior contamination (OPENMRS parent SHA + embedded token) removed; resolve via GitHub API before quoting"
+  }
+ },
+ "metrics": {
+  "files_total": 4344,
+  "source_files_scanned": 363,
+  "lines_of_code": 34051,
+  "languages": {
+   ".svg": 3205,
+   ".scss": 460,
+   ".js": 333,
+   ".md": 115,
+   ".json": 67,
+   "(none)": 53,
+   ".yml": 28,
+   ".ts": 19,
+   ".snap": 13,
+   ".jsx": 10,
+   ".lock": 8,
+   ".html": 8,
+   ".mjs": 5,
+   ".ai": 3,
+   ".png": 3
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 394,
+  "unique": 146,
+  "by_ecosystem": {
+   "npm": 394
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "unrun",
+    "version": "^0.3.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-export-default-from",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-runtime",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "workspace:packages/cli",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/ibm-products",
+    "version": "latest",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@commitlint/cli",
+    "version": "^21.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@commitlint/config-conventional",
+    "version": "^21.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/compat",
+    "version": "^2.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^9.24.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@figma/code-connect",
+    "version": "1.5.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "^1.36.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/dom",
+    "version": "^10.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/jest-dom",
+    "version": "^7.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/react",
+    "version": "^16.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@testing-library/user-event",
+    "version": "^14.4.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/prop-types",
+    "version": "^15.7.13",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-is",
+    "version": "^19.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "accessibility-checker",
+    "version": "^4.0.17",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cross-env",
+    "version": "^10.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cross-spawn",
+    "version": "^7.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "doctoc",
+    "version": "^2.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.32.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jsdoc",
+    "version": "^64.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jsx-a11y",
+    "version": "^6.10.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-playwright",
+    "version": "^2.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-testing-library",
+    "version": "^7.6.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "glob",
+    "version": "^13.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "17.12.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "husky",
+    "version": "^9.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^30.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest-junit",
+    "version": "^17.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lerna",
+    "version": "^10.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lint-staged",
+    "version": "^17.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint",
+    "version": "^17.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.34.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-helpers",
+    "version": "^10.84.0-rc.0",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-build-helpers",
+    "version": "^1.67.0-rc.0",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/pictograms",
+    "version": "^12.86.0-rc.0",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": ">=16",
+    "source_file": "packages/pictograms-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/pictograms/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-build-helpers",
+    "version": "^1.67.0-rc.0",
+    "source_file": "packages/pictograms/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/pictograms/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "link:../../../styles",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prismjs",
+    "version": "^1.30.0",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "url-polyfill",
+    "version": "^1.1.9",
+    "source_file": "packages/pictograms/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "style-dictionary",
+    "version": "^5.5.0",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/motion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/motion",
+    "version": "link:../../",
+    "source_file": "packages/motion/examples/motion-tokens-dtcg/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.3.3",
+    "source_file": "packages/motion/examples/motion-tokens-dtcg/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/motion/examples/motion-tokens-dtcg/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/motion/examples/motion-tokens-dtcg/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/motion/examples/motion-tokens-dtcg/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli-reporter",
+    "version": "^10.9.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/scss-generator",
+    "version": "^10.20.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "core-js",
+    "version": "^3.16.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "style-dictionary",
+    "version": "^5.5.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/layout/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/layout",
+    "version": "link:../../",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "link:../../../styles",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.5",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.57.1",
+    "source_file": "packages/layout/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-helpers",
+    "version": "^10.84.0-rc.0",
+    "source_file": "packages/icons-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/icons-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icons",
+    "version": "^11.90.0-rc.0",
+    "source_file": "packages/icons-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/icons-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.0.0",
+    "source_file": "packages/icons-vue/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vue",
+    "version": "^3.0.0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vue/cli-plugin-babel",
+    "version": "^3.2.0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vue/cli-plugin-eslint",
+    "version": "^3.2.0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vue/cli-service",
+    "version": "^3.2.0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-eslint",
+    "version": "^10.0.1",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^5.8.0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-vue",
+    "version": "^5.0.0-0",
+    "source_file": "packages/icons-vue/examples/vue-cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-helpers",
+    "version": "^10.84.0-rc.0",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-build-helpers",
+    "version": "^1.67.0-rc.0",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icons",
+    "version": "^11.90.0-rc.0",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": ">=16",
+    "source_file": "packages/icons-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/icons/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/icons/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-build-helpers",
+    "version": "^1.67.0-rc.0",
+    "source_file": "packages/icons/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/icons/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "link:../../../styles",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prismjs",
+    "version": "^1.30.0",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "url-polyfill",
+    "version": "^1.1.9",
+    "source_file": "packages/icons/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/icon-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/icon-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/icon-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/icon-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/generator",
+    "version": "^8.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/template",
+    "version": "^8.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/types",
+    "version": "^8.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli-reporter",
+    "version": "^10.9.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icon-helpers",
+    "version": "^10.84.0-rc.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "joi",
+    "version": "^18.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "js-yaml",
+    "version": "^5.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "memfs",
+    "version": "^4.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "svgo",
+    "version": "^4.0.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "svgson",
+    "version": "^5.2.1",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsdown",
+    "version": "^0.23.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/icon-build-helpers/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/layout",
+    "version": "^11.61.0-rc.0",
+    "source_file": "packages/grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@reach/router",
+    "version": "^1.3.3",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "classnames",
+    "version": "^2.2.6",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettify-xml",
+    "version": "^1.2.0",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prismjs",
+    "version": "^1.20.0",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/grid",
+    "version": "^11.9.0",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/grid/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/colors",
+    "version": "link:../../../colors",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/grid",
+    "version": "link:../../",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "carbon-components",
+    "version": "link:../../../components",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/grid/examples/css-grid/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/generator",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-typescript",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/template",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/types",
+    "version": "^8.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/scss-generator",
+    "version": "^10.20.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "js-yaml",
+    "version": "^5.0.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsdown",
+    "version": "^0.23.0",
+    "source_file": "packages/feature-flags/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/colors",
+    "version": "^11.60.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/grid",
+    "version": "^11.64.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/icons",
+    "version": "^11.90.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/layout",
+    "version": "^11.61.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/motion",
+    "version": "^11.54.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/themes",
+    "version": "^11.83.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/type",
+    "version": "^11.69.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "klaw-sync",
+    "version": "^8.0.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/elements/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli",
+    "version": "^11.52.0-rc.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli-reporter",
+    "version": "^10.9.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "style-dictionary",
+    "version": "^5.5.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "source_file": "packages/colors/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/colors",
+    "version": "link:../../",
+    "source_file": "packages/colors/examples/sass-modules/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.11",
+    "source_file": "packages/colors/examples/sass-modules/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/sass-modules/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/sass-modules/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/colors/examples/sass-modules/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/colors",
+    "version": "link:../../",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "link:../../../styles",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.57.1",
+    "source_file": "packages/colors/examples/preview/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/colors",
+    "version": "link:../../",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/themes",
+    "version": "link:../../../themes",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.6",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.36.0",
+    "source_file": "packages/colors/examples/colors-explorer/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "^6.0.0",
+    "source_file": "packages/cli-reporter/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/cli-reporter",
+    "version": "^10.9.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@octokit/plugin-retry",
+    "version": "^3.0.7",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@octokit/plugin-throttling",
+    "version": "^4.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@octokit/rest",
+    "version": "^22.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "^6.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "child-process-promise",
+    "version": "^2.2.1",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.2.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "inquirer",
+    "version": "^14.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "klaw-sync",
+    "version": "^8.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier-config-carbon",
+    "version": "^0.12.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "progress-estimator",
+    "version": "^0.3.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remark",
+    "version": "^15.0.1",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "replace-in-file",
+    "version": "^9.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.77.7",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tinyclip",
+    "version": "^1.0.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsdown",
+    "version": "^0.23.0",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "yargs",
+    "version": "^17.7.2",
+    "source_file": "packages/cli/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.118.0-rc.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "^1.117.0-rc.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "6.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-export-default-from",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-react-constant-elements",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "^8.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-plugin-dev-expression",
+    "version": "^0.2.3",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-preset-carbon",
+    "version": "^0.9.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "browserslist-config-carbon",
+    "version": "^11.2.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsdown",
+    "version": "^0.23.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^16.8.6 || ^17.0.1 || ^18.2.0 || ^19.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^16.8.6 || ^17.0.1 || ^18.2.0 || ^19.0.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.33.0",
+    "source_file": "packages/carbon-components-react/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "^1.117.0-rc.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "6.0.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.33.0",
+    "source_file": "packages/carbon-components/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/vite/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/v10-token-compat-in-v11/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/nextjs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.11",
+    "source_file": "examples/nextjs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "examples/nextjs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "examples/nextjs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/nextjs/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/light-dark-mode/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "next",
+    "version": "^16.2.11",
+    "source_file": "examples/light-dark-mode/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.5",
+    "source_file": "examples/light-dark-mode/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.5",
+    "source_file": "examples/light-dark-mode/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/light-dark-mode/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/id-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/custom-theme/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/styles",
+    "version": "^1.103.0-rc.0",
+    "source_file": "examples/codesandbox-styles/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/codesandbox-styles/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/codesandbox-styles/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@carbon/react",
+    "version": "^1.104.0-rc.0",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.93.2",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^7.2.4",
+    "source_file": "examples/class-prefix/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^25.9.3",
+    "source_file": "config/typescript-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "source_file": "config/typescript-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "source_file": "config/typescript-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@double-great/stylelint-a11y",
+    "version": "^3.4.10",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-config-idiomatic-order",
+    "version": "^10.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-config-prettier",
+    "version": "^9.0.3",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-config-standard",
+    "version": "^36.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-config-standard-scss",
+    "version": "^17.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-no-unsupported-browser-features",
+    "version": "^8.0.4",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-order",
+    "version": "^8.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-prettier",
+    "version": "^5.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-scss",
+    "version": "^7.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint-use-logical",
+    "version": "^2.1.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint",
+    "version": "^17.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stylelint",
+    "version": "^17.0.0",
+    "source_file": "config/stylelint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "3.x",
+    "source_file": "config/prettier-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-export-default-from",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-runtime",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-typescript",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axe-core",
+    "version": "^4.10.3",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-jest",
+    "version": "^30.2.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "^6.0.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest-environment-jsdom",
+    "version": "^30.2.0",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest-watch-typeahead",
+    "version": "^3.0.1",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "^1.77.7",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.3",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "source_file": "config/jest-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/eslint-parser",
+    "version": "^8.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^5.59.6",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/parser",
+    "version": "^5.59.6",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-airbnb",
+    "version": "^19.0.4",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-airbnb-base",
+    "version": "^15.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-prettier",
+    "version": "^10.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-import",
+    "version": "^2.31.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jest",
+    "version": "^29.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jest-dom",
+    "version": "^5.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jsdoc",
+    "version": "^64.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-jsx-a11y",
+    "version": "^6.7.1",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-prettier",
+    "version": "^5.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "^7.32.2",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-storybook",
+    "version": "^10.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-testing-library",
+    "version": "^7.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-restricted-globals",
+    "version": "^0.2.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-preset-carbon",
+    "version": "workspace:^",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.0.0",
+    "source_file": "config/eslint-config-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-proposal-export-default-from",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/plugin-transform-react-constant-elements",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-react",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@babel/preset-typescript",
+    "version": "^8.0.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-plugin-dev-expression",
+    "version": "^0.2.3",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "browserslist-config-carbon",
+    "version": "^11.2.0",
+    "source_file": "config/babel-preset-carbon/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/core",
+    "version": "^3.0.0",
+    "source_file": "actions/wait-for-it/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "got",
+    "version": "^16.0.0",
+    "source_file": "actions/wait-for-it/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/core",
+    "version": "^3.0.0",
+    "source_file": "actions/release-notifications/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/github",
+    "version": "9.1.1",
+    "source_file": "actions/release-notifications/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/core",
+    "version": "^3.0.0",
+    "source_file": "actions/promote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "execa",
+    "version": "^10.0.0",
+    "source_file": "actions/promote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "source_file": "actions/promote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "source_file": "actions/promote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "got",
+    "version": "^16.0.0",
+    "source_file": "actions/promote/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/core",
+    "version": "^3.0.0",
+    "source_file": "actions/issues/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@actions/github",
+    "version": "9.1.1",
+    "source_file": "actions/issues/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 33,
+  "files_with_findings": 32,
+  "severity": {
+   "high": 7,
+   "medium": 0,
+   "low": 26
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 7,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "packages/pictograms-react/tasks/build.js",
+      "line": 148,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = esmRegex.exec(indexContent)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "packages/icon-build-helpers/src/metadata/migrations/2020-01-27.js",
+      "line": 18,
+      "cwe": "CWE-502",
+      "snippet": "const metadata = yaml.load(await fs.readFile(metadataPath, 'utf8'));"
+     },
+     {
+      "severity": "high",
+      "file": "packages/icon-build-helpers/src/metadata/migrations/2020-02-17-remove-usage-fields.js",
+      "line": 17,
+      "cwe": "CWE-502",
+      "snippet": "const metadata = yaml.load(await fs.readFile(metadataPath, 'utf8'));"
+     },
+     {
+      "severity": "high",
+      "file": "packages/icon-build-helpers/src/metadata/migrations/2020-02-17-update-pictogram-files.js",
+      "line": 21,
+      "cwe": "CWE-502",
+      "snippet": "const metadata = yaml.load(await fs.readFile(metadataPath, 'utf8'));"
+     },
+     {
+      "severity": "high",
+      "file": "packages/icon-build-helpers/src/metadata/adapters/yml.js",
+      "line": 46,
+      "cwe": "CWE-502",
+      "snippet": "return yaml.load(data);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/cli/src/commands/ci-check.js",
+      "line": 31,
+      "cwe": "CWE-95",
+      "snippet": "await exec(task, options);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/cli/src/commands/contribute/setup.js",
+      "line": 102,
+      "cwe": "CWE-95",
+      "snippet": "const gitClonePromise = exec(gitCloneCommand);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 18,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/icon-build-helpers/src/builders/react/components/Icon.tsx",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove support for string in v12."
+     },
+     {
+      "severity": "low",
+      "file": "packages/feature-flags/src/FeatureFlagScope.ts",
+      "line": 9,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove in the next major version."
+     },
+     {
+      "severity": "low",
+      "file": "packages/cli/src/component/templates/test.template.js",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "// TODO"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/Tearsheet/Tearsheet-test.avt.e2e.js",
+      "line": 10,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove test.skip and change to test() when the v12 Storybook is"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/TagOverflow/TagOverflow-test.avt.e2e.js",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "// TODO: remove test.skip and re-enable when the v12 Storybook is running in CI."
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/SidePanel/SidePanel-test.avt.e2e.js",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "// TODO: SidePanel stories are excluded from the v11 Storybook via"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/ScrollGradient/ScrollGradient-test.avt.e2e.js",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove test.skip when ScrollGradient is removed from"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/PageHeader/PageHeader-test.avt.e2e.js",
+      "line": 12,
+      "cwe": "CWE-",
+      "snippet": "// TODO: update once stories are visible"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/Menu/Menu-test.avt.e2e.js",
+      "line": 25,
+      "cwe": "CWE-",
+      "snippet": "test.fixme('@avt-keyboard-nav Menu', async ({ page }) => {"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/InterstitialScreen/InterstitialScreen-test.avt.e2e.js",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "// TODO: enable when v12 Storybook is running in CI"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/FullPageError/FullPageError-test.avt.e2e.js",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "// TODO: remove test.skip and change globals.theme to 'white' when the v12"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/EditInPlace/EditInPlace-test.avt.e2e.js",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "// TODO: enable tests in v12 when component stories are included in Storybook build"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/Coachmark/Coachmark-test.avt.e2e.js",
+      "line": 16,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Remove test.skip and change to test() when the v12 Storybook is"
+     },
+     {
+      "severity": "low",
+      "file": "e2e/components/BigNumber/BigNumber-test.avt.e2e.js",
+      "line": 14,
+      "cwe": "CWE-",
+      "snippet": "// TODO: BigNumber stories are excluded from the v11 Storybook via"
+     },
+     {
+      "severity": "low",
+      "file": "config/stylelint-config-carbon/rules/limit-language-features.js",
+      "line": 70,
+      "cwe": "CWE-",
+      "snippet": "// TODO: migrate the `clip` usages to `clip-path`"
+     },
+     {
+      "severity": "low",
+      "file": "config/stylelint-config-carbon/rules/possible-errors.js",
+      "line": 43,
+      "cwe": "CWE-",
+      "snippet": "// TODO: re-evaluate when this issue is resolved"
+     },
+     {
+      "severity": "low",
+      "file": "config/eslint-config-carbon/plugins/jest.js",
+      "line": 118,
+      "cwe": "CWE-",
+      "snippet": "// Suggest using test.todo"
+     },
+     {
+      "severity": "low",
+      "file": "config/eslint-config-carbon/plugins/react.js",
+      "line": 67,
+      "cwe": "CWE-",
+      "snippet": "'@typescript-eslint/no-explicit-any': 'off', // TODO: Enable once stricter typings of internal utilities are supported"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/motion/examples/motion-tokens-dtcg/src/pages/index.js",
+      "line": 498,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/1999/xhtml\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/icon-helpers/src/toSVG.ts",
+      "line": 16,
+      "cwe": "CWE-319",
+      "snippet": "const node = document.createElementNS('http://www.w3.org/2000/svg', elem);"
+     },
+     {
+      "severity": "low",
+      "file": "packages/icon-helpers/src/__tests__/toString-test.js",
+      "line": 16,
+      "cwe": "CWE-319",
+      "snippet": "xmlns: 'http://www.w3.org/2000/svg',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/icon-helpers/src/__tests__/toSVG-test.js",
+      "line": 16,
+      "cwe": "CWE-319",
+      "snippet": "xmlns: 'http://www.w3.org/2000/svg',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/icon-build-helpers/src/builders/vue/utils.js",
+      "line": 25,
+      "cwe": "CWE-319",
+      "snippet": "xmlns: 'http://www.w3.org/2000/svg',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/icon-build-helpers/src/builders/react/components/Icon.tsx",
+      "line": 27,
+      "cwe": "CWE-319",
+      "snippet": "xmlns = 'http://www.w3.org/2000/svg',"
+     },
+     {
+      "severity": "low",
+      "file": "packages/colors/examples/colors-explorer/src/pages/index.js",
+      "line": 708,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/1999/xhtml\""
+     },
+     {
+      "severity": "low",
+      "file": "config/jest-config-carbon/transform/fileTransform.js",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "// http://facebook.github.io/jest/docs/tutorial-webpack.html"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 4,
+  "files_with_findings": 4,
+  "severity": {
+   "high": 0,
+   "medium": 4,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "packages/pictograms/examples/preview/src/pages/index.js",
+      "line": 88,
+      "cwe": "CWE-1336",
+      "snippet": "href={getBugTemplate(icon.name, source)}"
+     },
+     {
+      "severity": "medium",
+      "file": "packages/icons/examples/preview/src/pages/index.js",
+      "line": 166,
+      "cwe": "CWE-1336",
+      "snippet": "href={getBugTemplate(icon.name, source)}"
+     },
+     {
+      "severity": "medium",
+      "file": "actions/validate-pr-template/index.js",
+      "line": 51,
+      "cwe": "CWE-1336",
+      "snippet": "function getChecklistItemsFromTemplate(templateBody) {"
+     },
+     {
+      "severity": "medium",
+      "file": "actions/validate-pr-template/__tests__/index.test.js",
+      "line": 30,
+      "cwe": "CWE-1336",
+      "snippet": "getChecklistItemsFromTemplate(ACTUAL_TEMPLATE);"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9fe686a9-a623-55ef-82b5-49fbd31246be",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T06:21:12Z",
+   "component": {
+    "type": "application",
+    "name": "CARBON",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/CARBON@83b357604d34",
+    "purl": "pkg:generic/anticloud/CARBON@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": ""
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "unrun",
+    "version": "^0.3.1",
+    "purl": "pkg:npm/unrun@^0.3.1",
+    "bom-ref": "npm/unrun@^0.3.1"
+   },
+   {
+    "type": "library",
+    "name": "@babel/core",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/core@^8.0.0",
+    "bom-ref": "npm/@babel/core@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-proposal-export-default-from",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/plugin-proposal-export-default-from@^8.0.0",
+    "bom-ref": "npm/@babel/plugin-proposal-export-default-from@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-transform-class-properties",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/plugin-transform-class-properties@^8.0.0",
+    "bom-ref": "npm/@babel/plugin-transform-class-properties@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-transform-export-namespace-from",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/plugin-transform-export-namespace-from@^8.0.0",
+    "bom-ref": "npm/@babel/plugin-transform-export-namespace-from@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-transform-runtime",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/plugin-transform-runtime@^8.0.0",
+    "bom-ref": "npm/@babel/plugin-transform-runtime@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/preset-env",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/preset-env@^8.0.0",
+    "bom-ref": "npm/@babel/preset-env@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/preset-react",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/preset-react@^8.0.0",
+    "bom-ref": "npm/@babel/preset-react@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/runtime",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/runtime@^8.0.0",
+    "bom-ref": "npm/@babel/runtime@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/cli",
+    "version": "workspace:packages/cli",
+    "purl": "pkg:npm/@carbon/cli@workspace:packages/cli",
+    "bom-ref": "npm/@carbon/cli@workspace:packages/cli"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/ibm-products",
+    "version": "latest",
+    "purl": "pkg:npm/@carbon/ibm-products@latest",
+    "bom-ref": "npm/@carbon/ibm-products@latest"
+   },
+   {
+    "type": "library",
+    "name": "@commitlint/cli",
+    "version": "^21.0.0",
+    "purl": "pkg:npm/@commitlint/cli@^21.0.0",
+    "bom-ref": "npm/@commitlint/cli@^21.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@commitlint/config-conventional",
+    "version": "^21.0.0",
+    "purl": "pkg:npm/@commitlint/config-conventional@^21.0.0",
+    "bom-ref": "npm/@commitlint/config-conventional@^21.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/compat",
+    "version": "^2.0.1",
+    "purl": "pkg:npm/@eslint/compat@^2.0.1",
+    "bom-ref": "npm/@eslint/compat@^2.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/js",
+    "version": "^9.24.0",
+    "purl": "pkg:npm/@eslint/js@^9.24.0",
+    "bom-ref": "npm/@eslint/js@^9.24.0"
+   },
+   {
+    "type": "library",
+    "name": "@figma/code-connect",
+    "version": "1.5.3",
+    "purl": "pkg:npm/@figma/code-connect@1.5.3",
+    "bom-ref": "npm/@figma/code-connect@1.5.3"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "^1.36.2",
+    "purl": "pkg:npm/@playwright/test@^1.36.2",
+    "bom-ref": "npm/@playwright/test@^1.36.2"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/dom",
+    "version": "^10.1.0",
+    "purl": "pkg:npm/@testing-library/dom@^10.1.0",
+    "bom-ref": "npm/@testing-library/dom@^10.1.0"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/jest-dom",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/@testing-library/jest-dom@^7.0.0",
+    "bom-ref": "npm/@testing-library/jest-dom@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/react",
+    "version": "^16.0.0",
+    "purl": "pkg:npm/@testing-library/react@^16.0.0",
+    "bom-ref": "npm/@testing-library/react@^16.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@testing-library/user-event",
+    "version": "^14.4.3",
+    "purl": "pkg:npm/@testing-library/user-event@^14.4.3",
+    "bom-ref": "npm/@testing-library/user-event@^14.4.3"
+   },
+   {
+    "type": "library",
+    "name": "@types/prop-types",
+    "version": "^15.7.13",
+    "purl": "pkg:npm/@types/prop-types@^15.7.13",
+    "bom-ref": "npm/@types/prop-types@^15.7.13"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-is",
+    "version": "^19.0.0",
+    "purl": "pkg:npm/@types/react-is@^19.0.0",
+    "bom-ref": "npm/@types/react-is@^19.0.0"
+   },
+   {
+    "type": "library",
+    "name": "accessibility-checker",
+    "version": "^4.0.17",
+    "purl": "pkg:npm/accessibility-checker@^4.0.17",
+    "bom-ref": "npm/accessibility-checker@^4.0.17"
+   },
+   {
+    "type": "library",
+    "name": "cross-env",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/cross-env@^10.0.0",
+    "bom-ref": "npm/cross-env@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "cross-spawn",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/cross-spawn@^7.0.0",
+    "bom-ref": "npm/cross-spawn@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "doctoc",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/doctoc@^2.0.0",
+    "bom-ref": "npm/doctoc@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.32.0",
+    "purl": "pkg:npm/eslint@^9.32.0",
+    "bom-ref": "npm/eslint@^9.32.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-jsdoc",
+    "version": "^64.0.0",
+    "purl": "pkg:npm/eslint-plugin-jsdoc@^64.0.0",
+    "bom-ref": "npm/eslint-plugin-jsdoc@^64.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-jsx-a11y",
+    "version": "^6.10.2",
+    "purl": "pkg:npm/eslint-plugin-jsx-a11y@^6.10.2",
+    "bom-ref": "npm/eslint-plugin-jsx-a11y@^6.10.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-playwright",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/eslint-plugin-playwright@^2.0.0",
+    "bom-ref": "npm/eslint-plugin-playwright@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.5",
+    "purl": "pkg:npm/eslint-plugin-react@^7.37.5",
+    "bom-ref": "npm/eslint-plugin-react@^7.37.5"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.0",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-testing-library",
+    "version": "^7.6.6",
+    "purl": "pkg:npm/eslint-plugin-testing-library@^7.6.6",
+    "bom-ref": "npm/eslint-plugin-testing-library@^7.6.6"
+   },
+   {
+    "type": "library",
+    "name": "fs-extra",
+    "version": "^11.0.0",
+    "purl": "pkg:npm/fs-extra@^11.0.0",
+    "bom-ref": "npm/fs-extra@^11.0.0"
+   },
+   {
+    "type": "library",
+    "name": "glob",
+    "version": "^13.0.0",
+    "purl": "pkg:npm/glob@^13.0.0",
+    "bom-ref": "npm/glob@^13.0.0"
+   },
+   {
+    "type": "library",
+    "name": "globals",
+    "version": "17.12.0",
+    "purl": "pkg:npm/globals@17.12.0",
+    "bom-ref": "npm/globals@17.12.0"
+   },
+   {
+    "type": "library",
+    "name": "husky",
+    "version": "^9.0.0",
+    "purl": "pkg:npm/husky@^9.0.0",
+    "bom-ref": "npm/husky@^9.0.0"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^30.2.0",
+    "purl": "pkg:npm/jest@^30.2.0",
+    "bom-ref": "npm/jest@^30.2.0"
+   },
+   {
+    "type": "library",
+    "name": "jest-junit",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/jest-junit@^17.0.0",
+    "bom-ref": "npm/jest-junit@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lerna",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/lerna@^10.0.0",
+    "bom-ref": "npm/lerna@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lint-staged",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/lint-staged@^17.0.0",
+    "bom-ref": "npm/lint-staged@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "^3.3.3",
+    "purl": "pkg:npm/prettier@^3.3.3",
+    "bom-ref": "npm/prettier@^3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^19.2.3",
+    "purl": "pkg:npm/react@^19.2.3",
+    "bom-ref": "npm/react@^19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^19.2.3",
+    "purl": "pkg:npm/react-dom@^19.2.3",
+    "bom-ref": "npm/react-dom@^19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "rimraf",
+    "version": "^6.0.1",
+    "purl": "pkg:npm/rimraf@^6.0.1",
+    "bom-ref": "npm/rimraf@^6.0.1"
+   },
+   {
+    "type": "library",
+    "name": "stylelint",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/stylelint@^17.0.0",
+    "bom-ref": "npm/stylelint@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.34.0",
+    "purl": "pkg:npm/typescript-eslint@^8.34.0",
+    "bom-ref": "npm/typescript-eslint@^8.34.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/icon-helpers",
+    "version": "^10.84.0-rc.0",
+    "purl": "pkg:npm/@carbon/icon-helpers@^10.84.0-rc.0",
+    "bom-ref": "npm/@carbon/icon-helpers@^10.84.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "@ibm/telemetry-js",
+    "version": "^1.5.0",
+    "purl": "pkg:npm/@ibm/telemetry-js@^1.5.0",
+    "bom-ref": "npm/@ibm/telemetry-js@^1.5.0"
+   },
+   {
+    "type": "library",
+    "name": "prop-types",
+    "version": "^15.8.1",
+    "purl": "pkg:npm/prop-types@^15.8.1",
+    "bom-ref": "npm/prop-types@^15.8.1"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/icon-build-helpers",
+    "version": "^1.67.0-rc.0",
+    "purl": "pkg:npm/@carbon/icon-build-helpers@^1.67.0-rc.0",
+    "bom-ref": "npm/@carbon/icon-build-helpers@^1.67.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/pictograms",
+    "version": "^12.86.0-rc.0",
+    "purl": "pkg:npm/@carbon/pictograms@^12.86.0-rc.0",
+    "bom-ref": "npm/@carbon/pictograms@^12.86.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/styles",
+    "version": "link:../../../styles",
+    "purl": "pkg:npm/@carbon/styles@link:../../../styles",
+    "bom-ref": "npm/@carbon/styles@link:../../../styles"
+   },
+   {
+    "type": "library",
+    "name": "change-case-all",
+    "version": "^2.1.0",
+    "purl": "pkg:npm/change-case-all@^2.1.0",
+    "bom-ref": "npm/change-case-all@^2.1.0"
+   },
+   {
+    "type": "library",
+    "name": "next",
+    "version": "^16.2.6",
+    "purl": "pkg:npm/next@^16.2.6",
+    "bom-ref": "npm/next@^16.2.6"
+   },
+   {
+    "type": "library",
+    "name": "prismjs",
+    "version": "^1.30.0",
+    "purl": "pkg:npm/prismjs@^1.30.0",
+    "bom-ref": "npm/prismjs@^1.30.0"
+   },
+   {
+    "type": "library",
+    "name": "sass",
+    "version": "^1.36.0",
+    "purl": "pkg:npm/sass@^1.36.0",
+    "bom-ref": "npm/sass@^1.36.0"
+   },
+   {
+    "type": "library",
+    "name": "url-polyfill",
+    "version": "^1.1.9",
+    "purl": "pkg:npm/url-polyfill@^1.1.9",
+    "bom-ref": "npm/url-polyfill@^1.1.9"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/test-utils",
+    "version": "^10.42.0-rc.0",
+    "purl": "pkg:npm/@carbon/test-utils@^10.42.0-rc.0",
+    "bom-ref": "npm/@carbon/test-utils@^10.42.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "style-dictionary",
+    "version": "^5.5.0",
+    "purl": "pkg:npm/style-dictionary@^5.5.0",
+    "bom-ref": "npm/style-dictionary@^5.5.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^6.0.3",
+    "purl": "pkg:npm/typescript@^6.0.3",
+    "bom-ref": "npm/typescript@^6.0.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript-config-carbon",
+    "version": "workspace:^0.11.0",
+    "purl": "pkg:npm/typescript-config-carbon@workspace:^0.11.0",
+    "bom-ref": "npm/typescript-config-carbon@workspace:^0.11.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/motion",
+    "version": "link:../../",
+    "purl": "pkg:npm/@carbon/motion@link:../../",
+    "bom-ref": "npm/@carbon/motion@link:../../"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/cli-reporter",
+    "version": "^10.9.0",
+    "purl": "pkg:npm/@carbon/cli-reporter@^10.9.0",
+    "bom-ref": "npm/@carbon/cli-reporter@^10.9.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/scss-generator",
+    "version": "^10.20.0",
+    "purl": "pkg:npm/@carbon/scss-generator@^10.20.0",
+    "bom-ref": "npm/@carbon/scss-generator@^10.20.0"
+   },
+   {
+    "type": "library",
+    "name": "core-js",
+    "version": "^3.16.0",
+    "purl": "pkg:npm/core-js@^3.16.0",
+    "bom-ref": "npm/core-js@^3.16.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/layout",
+    "version": "link:../../",
+    "purl": "pkg:npm/@carbon/layout@link:../../",
+    "bom-ref": "npm/@carbon/layout@link:../../"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/icons",
+    "version": "^11.90.0-rc.0",
+    "purl": "pkg:npm/@carbon/icons@^11.90.0-rc.0",
+    "bom-ref": "npm/@carbon/icons@^11.90.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "vue",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/vue@^3.0.0",
+    "bom-ref": "npm/vue@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@vue/cli-plugin-babel",
+    "version": "^3.2.0",
+    "purl": "pkg:npm/@vue/cli-plugin-babel@^3.2.0",
+    "bom-ref": "npm/@vue/cli-plugin-babel@^3.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@vue/cli-plugin-eslint",
+    "version": "^3.2.0",
+    "purl": "pkg:npm/@vue/cli-plugin-eslint@^3.2.0",
+    "bom-ref": "npm/@vue/cli-plugin-eslint@^3.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@vue/cli-service",
+    "version": "^3.2.0",
+    "purl": "pkg:npm/@vue/cli-service@^3.2.0",
+    "bom-ref": "npm/@vue/cli-service@^3.2.0"
+   },
+   {
+    "type": "library",
+    "name": "babel-eslint",
+    "version": "^10.0.1",
+    "purl": "pkg:npm/babel-eslint@^10.0.1",
+    "bom-ref": "npm/babel-eslint@^10.0.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-vue",
+    "version": "^5.0.0-0",
+    "purl": "pkg:npm/eslint-plugin-vue@^5.0.0-0",
+    "bom-ref": "npm/eslint-plugin-vue@^5.0.0-0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/generator",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/generator@^8.0.0",
+    "bom-ref": "npm/@babel/generator@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/template",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/template@^8.0.0",
+    "bom-ref": "npm/@babel/template@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/types",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/types@^8.0.0",
+    "bom-ref": "npm/@babel/types@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "joi",
+    "version": "^18.0.0",
+    "purl": "pkg:npm/joi@^18.0.0",
+    "bom-ref": "npm/joi@^18.0.0"
+   },
+   {
+    "type": "library",
+    "name": "js-yaml",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/js-yaml@^5.0.0",
+    "bom-ref": "npm/js-yaml@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "memfs",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/memfs@^4.0.0",
+    "bom-ref": "npm/memfs@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "svgo",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/svgo@^4.0.0",
+    "bom-ref": "npm/svgo@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "svgson",
+    "version": "^5.2.1",
+    "purl": "pkg:npm/svgson@^5.2.1",
+    "bom-ref": "npm/svgson@^5.2.1"
+   },
+   {
+    "type": "library",
+    "name": "tsdown",
+    "version": "^0.23.0",
+    "purl": "pkg:npm/tsdown@^0.23.0",
+    "bom-ref": "npm/tsdown@^0.23.0"
+   },
+   {
+    "type": "library",
+    "name": "@reach/router",
+    "version": "^1.3.3",
+    "purl": "pkg:npm/@reach/router@^1.3.3",
+    "bom-ref": "npm/@reach/router@^1.3.3"
+   },
+   {
+    "type": "library",
+    "name": "classnames",
+    "version": "^2.2.6",
+    "purl": "pkg:npm/classnames@^2.2.6",
+    "bom-ref": "npm/classnames@^2.2.6"
+   },
+   {
+    "type": "library",
+    "name": "prettify-xml",
+    "version": "^1.2.0",
+    "purl": "pkg:npm/prettify-xml@^1.2.0",
+    "bom-ref": "npm/prettify-xml@^1.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/grid",
+    "version": "^11.9.0",
+    "purl": "pkg:npm/@carbon/grid@^11.9.0",
+    "bom-ref": "npm/@carbon/grid@^11.9.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/colors",
+    "version": "link:../../../colors",
+    "purl": "pkg:npm/@carbon/colors@link:../../../colors",
+    "bom-ref": "npm/@carbon/colors@link:../../../colors"
+   },
+   {
+    "type": "library",
+    "name": "carbon-components",
+    "version": "link:../../../components",
+    "purl": "pkg:npm/carbon-components@link:../../../components",
+    "bom-ref": "npm/carbon-components@link:../../../components"
+   },
+   {
+    "type": "library",
+    "name": "@babel/preset-typescript",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/preset-typescript@^8.0.0",
+    "bom-ref": "npm/@babel/preset-typescript@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/themes",
+    "version": "^11.83.0-rc.0",
+    "purl": "pkg:npm/@carbon/themes@^11.83.0-rc.0",
+    "bom-ref": "npm/@carbon/themes@^11.83.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/type",
+    "version": "^11.69.0-rc.0",
+    "purl": "pkg:npm/@carbon/type@^11.69.0-rc.0",
+    "bom-ref": "npm/@carbon/type@^11.69.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "klaw-sync",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/klaw-sync@^8.0.0",
+    "bom-ref": "npm/klaw-sync@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "chalk",
+    "version": "^6.0.0",
+    "purl": "pkg:npm/chalk@^6.0.0",
+    "bom-ref": "npm/chalk@^6.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@octokit/plugin-retry",
+    "version": "^3.0.7",
+    "purl": "pkg:npm/@octokit/plugin-retry@^3.0.7",
+    "bom-ref": "npm/@octokit/plugin-retry@^3.0.7"
+   },
+   {
+    "type": "library",
+    "name": "@octokit/plugin-throttling",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/@octokit/plugin-throttling@^4.0.0",
+    "bom-ref": "npm/@octokit/plugin-throttling@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@octokit/rest",
+    "version": "^22.0.0",
+    "purl": "pkg:npm/@octokit/rest@^22.0.0",
+    "bom-ref": "npm/@octokit/rest@^22.0.0"
+   },
+   {
+    "type": "library",
+    "name": "child-process-promise",
+    "version": "^2.2.1",
+    "purl": "pkg:npm/child-process-promise@^2.2.1",
+    "bom-ref": "npm/child-process-promise@^2.2.1"
+   },
+   {
+    "type": "library",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "purl": "pkg:npm/fast-glob@^3.3.3",
+    "bom-ref": "npm/fast-glob@^3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "inquirer",
+    "version": "^14.0.0",
+    "purl": "pkg:npm/inquirer@^14.0.0",
+    "bom-ref": "npm/inquirer@^14.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lodash",
+    "version": "^4.17.21",
+    "purl": "pkg:npm/lodash@^4.17.21",
+    "bom-ref": "npm/lodash@^4.17.21"
+   },
+   {
+    "type": "library",
+    "name": "prettier-config-carbon",
+    "version": "^0.12.0",
+    "purl": "pkg:npm/prettier-config-carbon@^0.12.0",
+    "bom-ref": "npm/prettier-config-carbon@^0.12.0"
+   },
+   {
+    "type": "library",
+    "name": "progress-estimator",
+    "version": "^0.3.0",
+    "purl": "pkg:npm/progress-estimator@^0.3.0",
+    "bom-ref": "npm/progress-estimator@^0.3.0"
+   },
+   {
+    "type": "library",
+    "name": "remark",
+    "version": "^15.0.1",
+    "purl": "pkg:npm/remark@^15.0.1",
+    "bom-ref": "npm/remark@^15.0.1"
+   },
+   {
+    "type": "library",
+    "name": "replace-in-file",
+    "version": "^9.0.0",
+    "purl": "pkg:npm/replace-in-file@^9.0.0",
+    "bom-ref": "npm/replace-in-file@^9.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tinyclip",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/tinyclip@^1.0.0",
+    "bom-ref": "npm/tinyclip@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "yargs",
+    "version": "^17.7.2",
+    "purl": "pkg:npm/yargs@^17.7.2",
+    "bom-ref": "npm/yargs@^17.7.2"
+   },
+   {
+    "type": "library",
+    "name": "@carbon/react",
+    "version": "^1.118.0-rc.0",
+    "purl": "pkg:npm/@carbon/react@^1.118.0-rc.0",
+    "bom-ref": "npm/@carbon/react@^1.118.0-rc.0"
+   },
+   {
+    "type": "library",
+    "name": "@babel/plugin-transform-react-constant-elements",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/plugin-transform-react-constant-elements@^8.0.0",
+    "bom-ref": "npm/@babel/plugin-transform-react-constant-elements@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "babel-plugin-dev-expression",
+    "version": "^0.2.3",
+    "purl": "pkg:npm/babel-plugin-dev-expression@^0.2.3",
+    "bom-ref": "npm/babel-plugin-dev-expression@^0.2.3"
+   },
+   {
+    "type": "library",
+    "name": "babel-preset-carbon",
+    "version": "^0.9.0",
+    "purl": "pkg:npm/babel-preset-carbon@^0.9.0",
+    "bom-ref": "npm/babel-preset-carbon@^0.9.0"
+   },
+   {
+    "type": "library",
+    "name": "browserslist-config-carbon",
+    "version": "^11.2.0",
+    "purl": "pkg:npm/browserslist-config-carbon@^11.2.0",
+    "bom-ref": "npm/browserslist-config-carbon@^11.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.1.1",
+    "purl": "pkg:npm/@vitejs/plugin-react@^5.1.1",
+    "bom-ref": "npm/@vitejs/plugin-react@^5.1.1"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "^7.2.4",
+    "purl": "pkg:npm/vite@^7.2.4",
+    "bom-ref": "npm/vite@^7.2.4"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^25.9.3",
+    "purl": "pkg:npm/@types/node@^25.9.3",
+    "bom-ref": "npm/@types/node@^25.9.3"
+   },
+   {
+    "type": "library",
+    "name": "@double-great/stylelint-a11y",
+    "version": "^3.4.10",
+    "purl": "pkg:npm/@double-great/stylelint-a11y@^3.4.10",
+    "bom-ref": "npm/@double-great/stylelint-a11y@^3.4.10"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-config-idiomatic-order",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/stylelint-config-idiomatic-order@^10.0.0",
+    "bom-ref": "npm/stylelint-config-idiomatic-order@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-config-prettier",
+    "version": "^9.0.3",
+    "purl": "pkg:npm/stylelint-config-prettier@^9.0.3",
+    "bom-ref": "npm/stylelint-config-prettier@^9.0.3"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-config-standard",
+    "version": "^36.0.0",
+    "purl": "pkg:npm/stylelint-config-standard@^36.0.0",
+    "bom-ref": "npm/stylelint-config-standard@^36.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-config-standard-scss",
+    "version": "^17.0.0",
+    "purl": "pkg:npm/stylelint-config-standard-scss@^17.0.0",
+    "bom-ref": "npm/stylelint-config-standard-scss@^17.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-no-unsupported-browser-features",
+    "version": "^8.0.4",
+    "purl": "pkg:npm/stylelint-no-unsupported-browser-features@^8.0.4",
+    "bom-ref": "npm/stylelint-no-unsupported-browser-features@^8.0.4"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-order",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/stylelint-order@^8.0.0",
+    "bom-ref": "npm/stylelint-order@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-prettier",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/stylelint-prettier@^5.0.0",
+    "bom-ref": "npm/stylelint-prettier@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-scss",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/stylelint-scss@^7.0.0",
+    "bom-ref": "npm/stylelint-scss@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "stylelint-use-logical",
+    "version": "^2.1.0",
+    "purl": "pkg:npm/stylelint-use-logical@^2.1.0",
+    "bom-ref": "npm/stylelint-use-logical@^2.1.0"
+   },
+   {
+    "type": "library",
+    "name": "axe-core",
+    "version": "^4.10.3",
+    "purl": "pkg:npm/axe-core@^4.10.3",
+    "bom-ref": "npm/axe-core@^4.10.3"
+   },
+   {
+    "type": "library",
+    "name": "babel-jest",
+    "version": "^30.2.0",
+    "purl": "pkg:npm/babel-jest@^30.2.0",
+    "bom-ref": "npm/babel-jest@^30.2.0"
+   },
+   {
+    "type": "library",
+    "name": "jest-environment-jsdom",
+    "version": "^30.2.0",
+    "purl": "pkg:npm/jest-environment-jsdom@^30.2.0",
+    "bom-ref": "npm/jest-environment-jsdom@^30.2.0"
+   },
+   {
+    "type": "library",
+    "name": "jest-watch-typeahead",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/jest-watch-typeahead@^3.0.1",
+    "bom-ref": "npm/jest-watch-typeahead@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@babel/eslint-parser",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/@babel/eslint-parser@^8.0.0",
+    "bom-ref": "npm/@babel/eslint-parser@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^5.59.6",
+    "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^5.59.6",
+    "bom-ref": "npm/@typescript-eslint/eslint-plugin@^5.59.6"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/parser",
+    "version": "^5.59.6",
+    "purl": "pkg:npm/@typescript-eslint/parser@^5.59.6",
+    "bom-ref": "npm/@typescript-eslint/parser@^5.59.6"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-airbnb",
+    "version": "^19.0.4",
+    "purl": "pkg:npm/eslint-config-airbnb@^19.0.4",
+    "bom-ref": "npm/eslint-config-airbnb@^19.0.4"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-airbnb-base",
+    "version": "^15.0.0",
+    "purl": "pkg:npm/eslint-config-airbnb-base@^15.0.0",
+    "bom-ref": "npm/eslint-config-airbnb-base@^15.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-prettier",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/eslint-config-prettier@^10.0.0",
+    "bom-ref": "npm/eslint-config-prettier@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-import",
+    "version": "^2.31.0",
+    "purl": "pkg:npm/eslint-plugin-import@^2.31.0",
+    "bom-ref": "npm/eslint-plugin-import@^2.31.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-jest",
+    "version": "^29.0.0",
+    "purl": "pkg:npm/eslint-plugin-jest@^29.0.0",
+    "bom-ref": "npm/eslint-plugin-jest@^29.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-jest-dom",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/eslint-plugin-jest-dom@^5.0.0",
+    "bom-ref": "npm/eslint-plugin-jest-dom@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-prettier",
+    "version": "^5.0.0",
+    "purl": "pkg:npm/eslint-plugin-prettier@^5.0.0",
+    "bom-ref": "npm/eslint-plugin-prettier@^5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-storybook",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/eslint-plugin-storybook@^10.0.0",
+    "bom-ref": "npm/eslint-plugin-storybook@^10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-restricted-globals",
+    "version": "^0.2.0",
+    "purl": "pkg:npm/eslint-restricted-globals@^0.2.0",
+    "bom-ref": "npm/eslint-restricted-globals@^0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@actions/core",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/@actions/core@^3.0.0",
+    "bom-ref": "npm/@actions/core@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "got",
+    "version": "^16.0.0",
+    "purl": "pkg:npm/got@^16.0.0",
+    "bom-ref": "npm/got@^16.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@actions/github",
+    "version": "9.1.1",
+    "purl": "pkg:npm/@actions/github@9.1.1",
+    "bom-ref": "npm/@actions/github@9.1.1"
+   },
+   {
+    "type": "library",
+    "name": "execa",
+    "version": "^10.0.0",
+    "purl": "pkg:npm/execa@^10.0.0",
+    "bom-ref": "npm/execa@^10.0.0"
+   }
+  ]
+ },
+ "elapsed_seconds": 125.87
+}
